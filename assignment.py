@@ -1,4 +1,4 @@
-def format_string(name, age):
+def format_string(name,age):
     """
     Create a formatted string using f-strings.
     Args:
@@ -7,7 +7,7 @@ def format_string(name, age):
     Returns:
         str: Formatted string
     """
-    return f"My name is {name} and I am {age} years old."
+    return f"My name is {name} and I am {age} years old"
 
 def conditional_check(number):
     """
@@ -75,12 +75,11 @@ def arithmetic_ops(a, b):
         dict: Results of arithmetic operations
     """
     return {
-        "Addition": a + b,
-        "Subtraction": a - b,
-        "Multiplication": a * b,
-        "Division": a / b if b != 0 else "Undefined",
-        "Modulus": a % b if b != 0 else "Undefined",
-        "Exponentiation": a ** b
+        "sum": a + b,
+        "difference": a - b,
+        "product": a * b,
+        "quotient": a / b if b != 0 else "Undefined",
+    
     }
 
 def logical_ops(x, y):
@@ -93,10 +92,10 @@ def logical_ops(x, y):
         dict: Results of logical operations
     """
     return {
-        "AND": x and y,
-        "OR": x or y,
-        "NOT x": not x,
-        "NOT y": not y
+        "and": x and y,
+        "or": x or y,
+        "not_x": not x,
+        "not_y": not y
     }
 
 def bitwise_ops(a, b):
@@ -109,11 +108,8 @@ def bitwise_ops(a, b):
         dict: Results of bitwise operations
     """
     return {
-        "AND": a & b,
-        "OR": a | b,
-        "XOR": a ^ b,
-        "Left Shift a": a << 1,
-        "Right Shift a": a >> 1,
-        "Left Shift b": b << 1,
-        "Right Shift b": b >> 1
+        "and": a & b,
+        "or": a | b,
+        "xor": a ^ b,
+        
     }
