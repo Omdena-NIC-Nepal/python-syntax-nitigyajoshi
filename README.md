@@ -72,3 +72,5 @@ This assignment tests your understanding of fundamental Python concepts across t
 - Each function will be tested with multiple test cases
 - Partial credit will be given for partially correct solutions
 - Code style and proper error handling will be considered
+
+<!-- assignment python syntax -->
